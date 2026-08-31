@@ -14,6 +14,11 @@ int main() {
         mpp[arr[i]] += 1;
     }
 
+    // Itterate on map
+    for(auto it : mpp){
+        cout<<it.first<<" -> "<<it.second<<endl;
+    }
+
     // querry
     int query = 3;
     cout<<mpp[query];
